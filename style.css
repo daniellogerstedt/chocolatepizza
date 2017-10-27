@@ -76,18 +76,18 @@ main p {
 }
 
 main img {
-  margin-top: 150px;
+  margin-top: 140px;
 }
 .printicon {
-  right: 0;
-  top: -50px;
+  right: -5px;
+  top: -40px;
   width: 50px;
   height: 25px;
 }
 
 .printicon h3 {
   display: inline-block;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .recipetitle {
