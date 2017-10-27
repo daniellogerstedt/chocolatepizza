@@ -5,10 +5,54 @@ body {
   margin: 0 auto;
 }
 
+footer {
+ margin-bottom: 60px;
+}
+
+#footertop {
+  position: relative;
+}
+
+#footertop img {
+  position: absolute;
+  top: -16px;
+  left: 48.25%;
+}
+
+#topfootleft, #topfootright {
+  position: absolute;
+  top: 0;
+  width: 426px;
+  height: 2px;
+  background: darkgray;
+  position: absolute;
+}
+
+#topfootleft {
+  left: 0;
+}
+
+#topfootright {
+  right: 0
+}
+
+#copywrite {
+  text-align: center;
+  color: darkgrey;
+  padding-top: 50px;
+
+}
+
 .graybar {
   width: 900px;
   position: absolute;
   bottom: 0;
+}
+
+.graybar2 {
+  width: 900px;
+  position: absolute;
+  bottom: 65px;
 }
 
 /*header styles*/
@@ -65,6 +109,8 @@ h1 {
 
 main {
   position: relative;
+  height: 1500px;
+  margin-bottom: 100px;
 }
 
 main section {
@@ -72,15 +118,95 @@ main section {
 }
 
 main p {
-  text-indent: 20px;
+  text-indent: 30px;
+  font-size: 19.5px;
+  margin-bottom: 40px;
+  color: grey;
 }
 
-main img {
-  margin-top: 140px;
+#contact_info {
+  position: absolute;
+  bottom: -40px;
+  width: 900px;
+  height: 80px;
+
 }
+
+#contact_info img {
+  position: absolute;
+}
+
+#contact_info p {
+  position: absolute;
+  left: 80px;
+  bottom: -30px;
+  text-indent: 0;
+  width: 620px;
+  font-size: 20px;
+}
+
+main section #name {
+  top: 0;
+  color: darkslategrey;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#contact_info button {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  height: 55px;
+  width: 185px;
+  border: none;
+  background: #bc7058;
+  color: white;
+  font-size: 25px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+#chocopizza {
+  margin-top: 140px;
+  margin-bottom: 35px;
+}
+
+.recipecard {
+  position: relative;
+  width: 900px;
+  height: 300px;
+
+}
+
+.recipecard img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.recipecard div {
+  position: absolute;
+  z-index: 9;
+  width: 350px;
+  top: 37px;
+  line-height: 31.5px;
+  font-size: 22px;
+  font-family: "Patrick Hand", cursive;
+  color: darkslategrey;
+}
+
+.column1of2 {
+  left: 60px;
+
+}
+
+.column2of2 {
+  left: 450px;
+}
+
 .printicon {
   right: -5px;
-  top: -40px;
+  top: 100px;
   width: 50px;
   height: 25px;
 }
