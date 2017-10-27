@@ -1,6 +1,61 @@
 /*app styles*/
 
 body {
-  width: 901px;
+  width: 900px;
   margin: 0 auto;
+}
+
+.graybar {
+  width: 900px;
+  position: absolute;
+  bottom: 0;
+}
+
+header{
+  margin-top: 35px;
+  position: relative;
+  height: 
+}
+
+.blogtitle div {
+  position: relative;
+}
+
+.blogtitle div p {
+  position: absolute;
+
+}
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+  margin: 0;
+  position: absolute;
+}
+
+.blogtitle {
+  position: relative;
+}
+
+.blogtitle img {
+  position: absolute;
+  left: 0;
+}
+
+.blogtitle div {
+  margin-left: 50px;
+}
+
+.icons {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.icons img {
+  margin: -1px;
+}
+
+#pint {
+  margin-right: 7px;
 }
