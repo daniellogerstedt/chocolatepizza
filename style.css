@@ -236,3 +236,7 @@ h3 {
   font-family: 'Saira Extra Condensed', sans-serif;
   color: darkgrey;
 }
+
+#milkbox:checked + #milk, #mascarponebox:checked + #mascarpone, #saltbox:checked + #salt, #figbox:checked + #fig, #brownsugarbox:checked + #brownsugar, #waterbox:checked + #water, #creambox:checked + #cream, #sugarbox:checked + #sugar, #eggbox:checked + #egg, #lemonbox:checked + #lemon, #butterbox:checked + #butter, #pecanbox:checked + #pecan {
+  text-decoration:line-through;
+}
